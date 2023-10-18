@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/greeting-block-plugin",
+  "version": "0.1.0",
+  "title": "Greeting Block Plugin",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "calls the API of the other WordPress environment with a custom greeting",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "greeting-block-plugin",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
